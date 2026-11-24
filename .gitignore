@@ -1,0 +1,25 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Go
+backend/travo
+backend/uploads/
+backend/private_uploads/
+*.exe
+
+# Node
+node_modules/
+dist/
+
+# Capacitor
+frontend/android/.gradle/
+frontend/ios/Pods/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
